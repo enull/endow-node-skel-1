@@ -1,19 +1,27 @@
 {
   "name": "endow-skel",
   "version": "0.1.0",
-  "description": "Simple NODE web skeleton for ENDOW projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Simple node-express web skeleton for ENDOW projects",
+  "keywords": [
+    "web",
+    "skeleton"
+  ],
+  "homepage": "https://github.com/enull/endow-skel",
+  "bugs": {
+    "url": "https://github.com/enull/endow-skel/issues",
+    "email": "bugs.endow-skel@epsilon-null.com"
   },
+  "license": "Unlicense",
+  "author": "Michael Clark <dev@epsilon-null.com> (http://epsilon-null.com/)",
   "repository": {
     "type": "git",
     "url": "https://github.com/enull/endow-skel.git"
   },
-  "author": "Michael Clark",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/enull/endow-skel/issues"
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/enull/endow-skel"
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
