@@ -17,6 +17,9 @@
     "type": "git",
     "url": "https://github.com/enull/endow-skel.git"
   },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
     "start": "node server.js",
     "test": "mocha test"

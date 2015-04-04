@@ -4,13 +4,6 @@ var express = require('express'),
 
 server.use(express.static(__dirname));
 
-server.use(function(req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-
-
 server.listen(port, function() {
     console.log('server listening on port ' + port);
 });
