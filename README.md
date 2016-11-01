@@ -1,4 +1,4 @@
-# endow-skel
+# endow-node-skel-1
 base starting point for git, npm, node, express, ember, bootstrap, mocha web application
 
 # files
